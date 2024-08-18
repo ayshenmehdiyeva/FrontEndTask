@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+}
+.Card{
+    width: 420px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 15px 15px 5px #000;
+    border: 1px solid #484848;
+}
+img{
+    width: 420px;
+    height: 300px;
+    border-radius: 20px;
+}
+.learn{
+    background-color: hsl(47, 88%, 63%);
+    width: 100px;
+    height: 30px;
+    color: #000;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin:20px 0px 20px 0px ; 
+}
+
+.publish{
+    color: #2d2c2c;
+    font-weight: 500;
+}
+h1{
+    color: hsl(47, 88%, 63%);
+}
+.text{
+    color: hsl(0, 0%, 42%);
+}
+.profile{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.pro-info{
+    width: 143px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.name{
+    color: #000;
+    font-weight: 600;
+}
